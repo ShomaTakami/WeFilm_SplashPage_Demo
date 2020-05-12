@@ -41,24 +41,27 @@ body {
   height: 20px;
 }
 
-/* -------------------------------------------------------------------------------- */
+/* -------------------------------content------------------------------------------------- */
 .image {
-  position: absolute;
-  top: 5;
-  left: 0;
+  position: relative;
   width: 850px;
   height: 700px;
   background: url("./display_image.png") top center/ cover no-repeat;
   margin: 0;
+  display: inline-block;
+  float: left;
 }
 
 .container_text {
+  position: relative;
   max-width: 300px;
   display: inline-block;
-  padding: 15px 0 0 250px;
+  margin: 0 45px;
   color: #1a2e3b;
   line-height: 1.6;
   letter-spacing: 2px;
+  text-align: center;
+  float: left;
   text-align: left;
 }
 .container_text > h1,
